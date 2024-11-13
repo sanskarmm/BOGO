@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish BOGO Offer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bogo-container">
+        <h2>YAY! It's BOGO</h2>
+        <form id="bogoForm">
+            <!-- 1 Unit Offer -->
+            <div class="offer">
+                <input type="radio" id="offer1" name="offer" value="1" data-price="10" data-discount="0.1">
+                <label for="offer1">
+                    <span>1 Unit</span>
+                    <span class="discount">10% Off</span>
+                    <span class="price">$10.00 USD <del>$24.00 USD</del></span>
+                </label>
+                <div class="options" id="options1">
+                    <div class="size-a">
+                        <label>Size</label>
+                        <select name="size1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select name="size1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </div>
+                    <div class="size-a">
+                        <label>Color</label>
+                        <select name="color1">
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                        <select name="color1">
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 Unit Offer -->
+            <div class="offer most-popular">
+                <div class="popular-badge">MOST POPULAR</div>
+                <input type="radio" id="offer2" name="offer" value="2" data-price="18" data-discount="0.2">
+                <label for="offer2">
+                    <span>2 Unit</span>
+                    <span class="discount">20% Off</span>
+                    <span class="price">$18.00 USD <del>$24.00 USD</del></span>
+                </label>
+                <div class="options" id="options2">
+                    <div class="size-a">
+                        <label>Size</label>
+                        <select name="size2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select name="size2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </div>
+                    <div class="size-a">
+                        <label>Color</label>
+                        <select name="color2">
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                        <select name="color2">
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 Unit Offer -->
+            <div class="offer">
+                <input type="radio" id="offer3" name="offer" value="3" data-price="24" data-discount="0.3">
+                <label for="offer3">
+                    <span>3 Unit</span>
+                    <span class="discount">30% Off</span>
+                    <span class="price">$24.00 USD <del>$24.00 USD</del></span>
+                </label>
+                <div class="options" id="options3">
+                    <div class="size-a">
+                        <label>Size</label>
+                        <select name="size3">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select name="size3">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </div>
+                    <div class="size-a">
+                        <label>Color</label>
+                        <select name="color3">
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                        <select name="color3">
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Total Price and Add to Cart -->
+           <!-- Total Price and Add to Cart -->
+<div class="summary">
+    <p class="free-delivery">Free Delivery</p>
+    <div class="total-and-button">
+        <p class="total">Total: <span id="totalPrice">$10.00 USD</span></p>
+        <button type="button" id="addToCart">+ Add to Cart</button>
+    </div>
+</div>
+        </form>
+        <footer>@ Powered by Pumper</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
